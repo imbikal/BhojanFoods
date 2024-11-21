@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+    color:black;
+}
+
+/* css for logo */
+
+.logo img{
+    height:8vw;
+}
+
+/* css for navbar left*/
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 10vw;
+}
+.left{
+    display:flex;
+}
+.navul{
+    display:flex;
+    list-style:none;
+    margin:12px;
+}
+.navul li{
+    margin:18px 20px;
+    font-size:1.7vw;
+    cursor: pointer;
+    
+}
+.navul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.navul li ul{
+    display:none;
+}
+
+.navul li:hover>ul{
+    display:block;
+}
+.submenu li{
+    margin: 12px 9px;
+}
+
+/* css for navbar right*/
+
+.right{
+    padding:2vw;
+    display: flex;
+}
+.right input{
+    padding:0.5vw;
+    font-size:1.2vw;
+    margin-left: 1vw;
+}
+.btn1{
+    cursor:pointer;
+}
+
+/* css for image slider */
+
+.slider-container{
+    
+    width: 95%;
+    height: 65vh;
+    margin: 3vw auto;
+}
+.swiper{
+    width:80%;
+    height: 80vh;
+}
+.swiper-slide img{
+    width:100%;
+    height:35vw;
+}
+
+/* css for most popular foods */
+
+.food-menu{
+    padding: 4% 0 0 3%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.container h2{
+    margin-bottom:3vw;
+    font-size: 2vw;
+}
+.text-center{
+    text-align: center;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #f5e4e4;
+    border-radius: 15px;
+}
+.food-menu-box1{
+    width: 26%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: #f5e4e4;
+    border-radius: 15px;
+    height:23vw;
+    border: 1px solid black;
+}
+.food-menu-img{
+    width: 50%;
+    float: left;
+}
+.food-menu-img1{
+    width: 100%;
+    float: left;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+    font-family:sans-serif;
+}
+.food-menu-desc1{
+    width: 85%;
+    float: left;
+    margin: 2% 8%;
+    font-family:sans-serif;
+    height:8vw;
+}
+.food-menu-desc h4{
+    font-family:sans-serif;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    /* color: #747d8c; */
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* css for social media section */
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.social h4{
+    font-family: sans-serif;
+    margin-bottom: 2vw;
+    font-size: 1.6vw;
+}
+
+/* css for footer */
+
+.footer p{
+    background-color: brown;
+    padding: 1.2vw;
+    margin-top: 30px;
+}
+
+/* css for contact us */
+
+.contact{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+    padding-top: 3vw;
+    width: 45vw;
+    border-radius: 20px;
+    background-color: #f5e3e3;
+}
+.contact input,textarea{
+    padding: 4px;
+    display: block;
+    width: 20vw;
+    font-size: 1.3vw;
+    margin: 0.5vw;
+}
+.form-group label{
+    font-size:1.4vw;
+}
+.send input{
+    width: 6vw;
+    margin: 2vw auto;
+    cursor: pointer;
+}
+
+/* css for order */
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+} 
+.food-order{
+    background-image: url(../images/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.food-order h2{
+    color: black;
+}
+.success{
+    color:#2ed573;
+}
+.error{
+    color:#ff4757;
+}
+
+/* css for login */
+
+.login{
+    width:20%;
+    border: 1px solid black;
+    margin:10% auto;
+    padding:2%;
+    border-radius: 15px;
+    background-color: #f3a9a9;
+    
+}
+.login input{
+    padding: 5px;
+    font-size: 15px;
+    margin: 4px;
+}
